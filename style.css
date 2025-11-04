@@ -1,55 +1,41 @@
+header{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding-right: 100px;
+    background-color: #414535;
+    color: #f2e3bc;
+}
+
 body{
     margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 80px 1fr 60px;
 }
 
-header{
-    background-color: #637074;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+#foto{
+    border-radius: 100px;
 }
-div{
-    text-align: center;
-    font-size: 30px;
-}
-main{
-    background-color: #aab9cf;
-}
-footer{
-    background-color: #212227;
-}
-
-#minha-foto{
-    width: 300px;
-    border-radius: 100%;
-    margin: 20px;
-}
-
 .sobre-mim{
-    margin: 100px;
     display: flex;
     justify-content: center;
-}
-#texto-sobre-mim{
-    margin: 20px;
-    padding: 20px;
-    max-width: 600px;
-    font-size: 20px;
-    border: 1px solid #212227;
-    border-radius: 50px;
-    background-color: #8693ab;
+    margin-top: 100px;
+    gap: 20px;
 }
 
-.items{
-    display: flex;
-    gap: 10px;
+.sobre-mim-texto{
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #414535;
+    border-radius: 250px;
+    max-width: 500px;
+    background-color: #c19875;
+}
+p{
+    color: #f2e3bc;
+    font-size: 20px;
 }
 
 .item{
-    height: 400px;
     width: 300px;
-    border: 2px solid black;
+    height: 300px;
+    border: 1px solid black;
 }
