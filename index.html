@@ -8,12 +8,14 @@
   </head>
   <body>
     <header>
-      <h3>Sobre Mim</h3>
-      <h3>Portfolio</h3>
-      <h3>Contato</h3>
+      <div class="header-container">
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contato">Contato</a>
+      </div>
     </header>
     <main>
-      <div class="sobre-mim">
+      <div class="sobre-mim" id="sobre-mim">
         <img
           id="foto"
           src="https://cdn.liberal.com.br/media/bf/a6/d6/45204/linha-viril-os-destaques-de-um-rosto-masculino-20250915185126000.jpg"
@@ -29,7 +31,7 @@
           </p>
         </div>
       </div>
-      <div class="portfolio">
+      <div class="portfolio" id="portfolio">
         <h1 class="titulo">Portfolio</h1>
         <div class="items">
           <div class="item">
@@ -51,6 +53,10 @@
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
               alt=""
             />
+            <p>
+              Estilização de páginas, utilizando proprieades como:
+              background-color, color, font, display, @media, border
+            </p>
           </div>
           <div class="item">
             <h3>Javascript</h3>
@@ -59,26 +65,37 @@
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
               alt=""
             />
+            <p>
+              Conhecimentos em programação utilizando diversos recursos, como:
+              variaveis, objetos, funções, condicionais, loops, document, bibliotecas, etc...
+            </p>
           </div>
         </div>
       </div>
-      <div class="contato">
+      <div class="contato" id="contato">
         <h1 class="titulo">Contato</h1>
-        <form>
-          <div>
-            <input type="text" placeholder="Insira seu Nome" />
-            <input type="text" placeholder="Insira o Assunto" />
-          </div>
-          <div>
-            <textarea name="" id="" placeholder="Insira a Descrição"></textarea>
-          </div>
-          <button>Entrar em Contato</button>
-        </form>
+        <div class="formulario">
+          <form>
+            <div>
+              <input type="text" placeholder="Insira seu Nome" />
+              <input type="text" placeholder="Insira o Assunto" />
+            </div>
+            <div>
+              <textarea name="" id="" placeholder="Insira a Descrição"></textarea>
+            </div>
+            <button>Entrar em Contato</button>
+          </form>
+        </div>
+        
       </div>
     </main>
     <footer>
-        <a href="tel:+5527998310303">Telefone</a>
-        <a href="https://www.instagram.com/daniloerlerlima/">Instagram</a>
+        <a href="tel:+5527998310303">
+          <img height="15px" src="https://cdn-icons-png.freepik.com/256/159/159052.png?semt=ais_white_label" alt="">
+        </a>
+        <a href="https://www.instagram.com/daniloerlerlima/">
+          <img height="15px" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="">
+        </a>
     </footer>
 
   </body>
