@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h3>Sobre mim</h3>
+      <h3>Sobre Mim</h3>
       <h3>Portfolio</h3>
       <h3>Contato</h3>
     </header>
@@ -16,27 +16,70 @@
       <div class="sobre-mim">
         <img
           id="foto"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqI_VuBMCwFfHkvt4zp0YDQ_f_gAOXCniTCQ&s"
+          src="https://cdn.liberal.com.br/media/bf/a6/d6/45204/linha-viril-os-destaques-de-um-rosto-masculino-20250915185126000.jpg"
           alt=""
         />
-        <div class="sobre-mim-texto">
+        <div class="descricao">
           <h1>Danilo Erler Lima</h1>
           <p>
-            Nascido em 2001, no estado do espirito santo, sou interessado em
-            tecnologias e jogos. Formei em Ciência da Computação pela UFES e
-            estudo Jogos Digitais pelo CEET Vasco Coutinho
+            24 Anos, nascido no espirito santo, sou um grande interessado nas
+            áreas de tecnologia e jogos. Formado em ciência da computação pela
+            UFES, e em formação técnica de Jogos Digitais pelo CEET Vasco
+            Coutinho
           </p>
         </div>
       </div>
       <div class="portfolio">
-        <div class="itens">
-          <div class="item i1"></div>
-          <div class="item i2"></div>
-          <div class="item i3"></div>
+        <h1 class="titulo">Portfolio</h1>
+        <div class="items">
+          <div class="item">
+            <h3>HTML</h3>
+            <img
+              id="logo-html"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+              alt=""
+            />
+            <p>
+              Criação de páginas e utilização de tags como H1, img, a,
+              containers, etc...
+            </p>
+          </div>
+          <div class="item">
+            <h3>CSS</h3>
+            <img
+              id="logo-css"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+              alt=""
+            />
+          </div>
+          <div class="item">
+            <h3>Javascript</h3>
+            <img
+              id="logo-js"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <div class="contato"></div>
+      <div class="contato">
+        <h1 class="titulo">Contato</h1>
+        <form>
+          <div>
+            <input type="text" placeholder="Insira seu Nome" />
+            <input type="text" placeholder="Insira o Assunto" />
+          </div>
+          <div>
+            <textarea name="" id="" placeholder="Insira a Descrição"></textarea>
+          </div>
+          <button>Entrar em Contato</button>
+        </form>
+      </div>
     </main>
+    <footer>
+        <a href="tel:+5527998310303">Telefone</a>
+        <a href="https://www.instagram.com/daniloerlerlima/">Instagram</a>
+    </footer>
+
   </body>
-  <script src="script.js"></script>
 </html>
