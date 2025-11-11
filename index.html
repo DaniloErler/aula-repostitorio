@@ -3,100 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Meu Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <a href="#sobre-mim">Sobre Mim</a>
+      <div class="h-home">
+        Home
+      </div>
+      <div class="h-sobre-mim">
+        <a href="#sobre-mim">Sobre mim</a>
+      </div>
+      <div class="h-portfolio">
         <a href="#portfolio">Portfolio</a>
+      </div>
+      <div class="h-contato">
         <a href="#contato">Contato</a>
       </div>
     </header>
     <main>
       <div class="sobre-mim" id="sobre-mim">
-        <img
-          id="foto"
-          src="https://cdn.liberal.com.br/media/bf/a6/d6/45204/linha-viril-os-destaques-de-um-rosto-masculino-20250915185126000.jpg"
-          alt=""
-        />
-        <div class="descricao">
+        <div id="foto">
+          <img
+            id="minha-foto"
+            src="https://res.cloudinary.com/beleza-na-web/image/upload/f_auto,fl_progressive,q_auto:eco/blog/wordpress/prod/sites/9/2025/04/28104353/AdobeStock_319494119.jpg"
+            alt=""
+          />
+        </div>
+        <div id="texto-sobre-mim">
           <h1>Danilo Erler Lima</h1>
           <p>
-            24 Anos, nascido no espirito santo, sou um grande interessado nas
-            áreas de tecnologia e jogos. Formado em ciência da computação pela
-            UFES, e em formação técnica de Jogos Digitais pelo CEET Vasco
-            Coutinho
+            Nascido no Espirito Santo, Graduado em Ciência da Computação pela
+            Universidade Federal do Espirito Santo (UFES) e em formação Técnica
+            no curso de Jogos Digitais pelo CEET Vasco Coutinho, sou um grande
+            interessado por tecnologia e jogos.
           </p>
         </div>
       </div>
       <div class="portfolio" id="portfolio">
-        <h1 class="titulo">Portfolio</h1>
+        <h2>Portfolio</h2>
         <div class="items">
-          <div class="item">
-            <h3>HTML</h3>
-            <img
-              id="logo-html"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
-              alt=""
-            />
-            <p>
-              Criação de páginas e utilização de tags como H1, img, a,
-              containers, etc...
-            </p>
+          <div class="item i1">
+            <img class="item-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="">
+            <p class="item-txt">Habilidades em criar páginas, adicionando tags e containers, como: h1, p, img, div, ul, ol, table, etc...</p>
           </div>
-          <div class="item">
-            <h3>CSS</h3>
-            <img
-              id="logo-css"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
-              alt=""
-            />
-            <p>
-              Estilização de páginas, utilizando proprieades como:
-              background-color, color, font, display, @media, border
-            </p>
+          <div class="item i2">
+            <img id="img-css" class="item-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="">
+            <p class="item-txt">Habilidaes na estilização de páginas html, modificando atributos como color, background-color, display, border, etc...</p>
           </div>
-          <div class="item">
-            <h3>Javascript</h3>
-            <img
-              id="logo-js"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
-              alt=""
-            />
-            <p>
-              Conhecimentos em programação utilizando diversos recursos, como:
-              variaveis, objetos, funções, condicionais, loops, document, bibliotecas, etc...
+          <div class="item i3">
+            <img class="item-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="">
+            <p class="item-txt">
+              Habilidades em programação como criação de variaveis, funcoes, objetos e metodos, além de animações e modificacoes no html
             </p>
           </div>
         </div>
       </div>
       <div class="contato" id="contato">
-        <h1 class="titulo">Contato</h1>
-        <div class="formulario">
-          <form>
-            <div>
-              <input type="text" placeholder="Insira seu Nome" />
-              <input type="text" placeholder="Insira o Assunto" />
-            </div>
-            <div>
-              <textarea name="" id="" placeholder="Insira a Descrição"></textarea>
-            </div>
-            <button>Entrar em Contato</button>
-          </form>
-        </div>
-        
+        <h2>Contato</h2>
+        <form action="">
+          <input type="text" placeholder="Nome">
+          <input type="text" placeholder="Assunto">
+          <textarea name="" id="" placeholder="Descrição"></textarea>
+          <button>Entrar em Contato</button>
+        </form>
       </div>
-    </main>
+    </main> 
     <footer>
-        <a href="tel:+5527998310303">
-          <img height="15px" src="https://cdn-icons-png.freepik.com/256/159/159052.png?semt=ais_white_label" alt="">
-        </a>
-        <a href="https://www.instagram.com/daniloerlerlima/">
-          <img height="15px" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="">
-        </a>
+      <div class="footer-itens">
+        <p>© Feito por Danilo Lima, 2025</p>
+        <div class="links">
+          <a href="tel:+5527999999999">
+            <img class="img-link" src="https://images.vexels.com/media/users/3/205069/isolated/preview/f207045d96c258fed664305f0ac2c5bd-icone-azul-do-monofone-do-telefone.png" alt="">
+          </a>
+          <a href="https://www.instagram.com/daniloerlerlima/">
+            <img class="img-link" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="">
+          </a>
+          <a href="https://github.com/DaniloErler">
+            <img class="img-link" src="https://assets.dio.me/ItDxe4fnTTyEaEHgQQ2e2bq5Iy6UEjvyMAwfhvJcn04/f:webp/q:80/L2FydGljbGVzL2NvdmVyLzEyNDcyYmM5LThkMGEtNDk2My1hNjU3LWY0NjFjMjFhZTg4YS5wbmc" alt="">
+          </a>
+          <a href="mailto:danilinhoerlerlima@gmail.com">
+            <img class="img-link" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1024px-Gmail_icon_%282020%29.svg.png" alt="">
+          </a>
+        </div>
+      </div>
     </footer>
-
   </body>
+  <script src="script.js"></script>
 </html>
